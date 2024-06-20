@@ -65,7 +65,7 @@ export const PostProvider = ({ children }) => {
     }
   };
 
-  // Función para actualizar un post por su ID
+  // Función para actualizar un post por su ID.
   const updatePost = async (id, post) => {
     try {
       const res = await updatePostRequest(id, post); // Realiza la solicitud para actualizar un post
